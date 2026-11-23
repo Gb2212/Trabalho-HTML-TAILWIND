@@ -1,88 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gustavo Barreto|Portfólio</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo Barreto | Portfólio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-   <header>
-    <div class="header-flex">
-      <div>
-        <h1>Gustavo Barreto</h1>
-         <p>Técnico em Informática</p>
-      </div>
+<body class="flex min-h-screen flex-col bg-gray-900 text-gray-100">
 
+  <header class="border-b border-gray-700 bg-gray-800">
+    <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-3 px-5 py-4">
+      <div>
+        <h1 class="text-xl font-bold">Gustavo Barreto</h1>
+        <p class="text-sm text-blue-400">Técnico em Informática</p>
+      </div>
       <nav>
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="sobre.html">Sobre Mim</a></li>
-          <li><a href="contato.html">Contato</a></li>
+        <ul class="flex gap-5 text-sm font-medium">
+          <li><a href="index.html" class="border-b-2 border-blue-500 pb-1 text-white">Início</a></li>
+          <li><a href="sobre.html" class="border-b-2 border-transparent pb-1 text-gray-400 hover:text-white">Sobre Mim</a></li>
+          <li><a href="contato.html" class="border-b-2 border-transparent pb-1 text-gray-400 hover:text-white">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-    <main>
+  <main class="mx-auto w-full max-w-4xl flex-1 px-5">
 
-   
-    <section id="apresentacao">
-      <img src="img/minha_foto_arrumado.jpeg" alt="Foto do aluno" class="foto-perfil">
+    <section class="flex flex-col items-center gap-8 py-12 md:flex-row">
+      <img src="img/minha_foto_arrumado.jpeg" alt="Foto de Gustavo Barreto"
+           class="foto-perfil h-48 w-48 shrink-0 rounded-full border-4 border-blue-600 object-cover md:h-64 md:w-64">
       <div>
-        <h2>Olá, eu sou Gustavo Barreto!</h2>
-        <p>Sou estudante de Informática na E.E.E.P Jeová Costa Lima e estou aprendendo HTML e CSS.
-        Criei este portfólio para mostrar um pouco do que já sei até agora. "Deus acima de tudo!"</p>
+        <h2 class="text-3xl font-bold">Olá, eu sou Gustavo Barreto!</h2>
+        <p class="mt-4 leading-relaxed text-gray-300">
+          Sou estudante de Informática na E.E.E.P Jeová Costa Lima e estou aprendendo HTML e CSS.
+          Criei este portfólio para mostrar o que já sei até agora.
+        </p>
+        <p class="mt-3 italic text-gray-400">“Deus acima de tudo!”</p>
       </div>
     </section>
 
-  
-    <section id="tecnologias">
-      <h2>Tecnologias</h2>
-      <ul class="lista-tecnologias">
-        <li>PYTHON</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>PORTUGOL</li>
-        <li>PHP</li>
+    <section class="border-t border-gray-700 py-10">
+      <h2 class="text-2xl font-bold">Tecnologias</h2>
+      <ul class="mt-6 flex flex-wrap gap-4">
+        <li class="logo-card"><img src="img/python.png" alt="Logo do Python"><span>Python</span></li>
+        <li class="logo-card"><img src="img/html.png" alt="Logo do HTML5"><span>HTML</span></li>
+        <li class="logo-card"><img src="img/css.png" alt="Logo do CSS3"><span>CSS</span></li>
+        <li class="logo-card"><img src="img/portugol.png" alt="Logo do Portugol"><span>Portugol</span></li>
+        <li class="logo-card"><img src="img/php.png" alt="Logo do PHP"><span>PHP</span></li>
+        <li class="logo-card"><img src="img/tailwind.png" alt="Logo do Tailwind"><span>TAILWIND</span></li>
       </ul>
     </section>
 
-    <section id="ferramentas">
-      <h2>Ferramentas</h2>
-      <div class="cards-ferramentas">
-        <div class="card">
-          <h3>VS Code</h3>
-          <p>Editor de codigo usado no dia a dia.</p>
-        </div>
-        <div class="card">
-          <h3>Git</h3>
-          <p>Controle de versao dos projetos.</p>
-        </div>
-        <div class="card">
-          <h3>GitHub</h3>
-          <p>Hospedagem de repositorios e portfolio.</p>
-        </div>
-      </div>
+    <section class="border-t border-gray-700 py-10">
+      <h2 class="text-2xl font-bold">Ferramentas</h2>
+      <ul class="mt-6 divide-y divide-gray-700 border-y border-gray-700">
+        <li class="ferramenta flex items-center gap-4 px-3 py-4">
+          <img src="img/vscode.png" alt="Logo do VS Code" class="h-10 w-10 object-contain">
+          <div>
+            <h3 class="font-bold">VS Code</h3>
+            <p class="text-sm text-gray-400">Editor de código usado no dia a dia.</p>
+          </div>
+        </li>
+        <li class="ferramenta flex items-center gap-4 px-3 py-4">
+          <img src="img/git.png" alt="Logo do Git" class="h-10 w-10 object-contain">
+          <div>
+            <h3 class="font-bold">Git</h3>
+            <p class="text-sm text-gray-400">Controle de versão dos projetos.</p>
+          </div>
+        </li>
+        <li class="ferramenta flex items-center gap-4 px-3 py-4">
+          <img src="img/github.png" alt="Logo do GitHub" class="h-10 w-10 object-contain">
+          <div>
+            <h3 class="font-bold">GitHub</h3>
+            <p class="text-sm text-gray-400">Hospedagem de repositórios e portfólio.</p>
+          </div>
+        </li>
+      </ul>
     </section>
 
-
-    <section id="links">
-      <h2>Meus links</h2>
-      <p>Confira meu GitHub e as atividades que fiz na disciplina de PHP:</p>
-      <a href="https://github.com/Gb2212" target="_blank">Meu GitHub</a>
-      <a href="https://github.com/Gb2212/Php-fefe-e-gugu.git" target="_blank">Atividades de PHP</a>
+    <section class="border-t border-gray-700 py-10">
+      <h2 class="text-2xl font-bold">Meus links</h2>
+      <p class="mt-3 text-gray-300">Confira meu GitHub e as atividades que fiz na disciplina de PHP:</p>
+      <div class="mt-6 grid gap-4 sm:grid-cols-2">
+        <a href="https://github.com/Gb2212" target="_blank" rel="noopener noreferrer" class="link-card">
+          <img src="img/github.png" alt="Logo do GitHub">
+          <div class="min-w-0">
+            <h3 class="font-bold">Meu GitHub</h3>
+          </div>
+        </a>
+        <a href="https://github.com/Gb2212/PHP-LOOPS-E-VETORES.git" target="_blank" rel="noopener noreferrer" class="link-card">
+          <img src="img/php.png" alt="Logo do PHP">
+          <div class="min-w-0">
+            <h3 class="font-bold">Atividades de PHP</h3>
+          </div>
+        </a>
+      </div>
     </section>
 
   </main>
 
-    <footer>
+  <footer class="border-t border-gray-700 bg-gray-800 py-6 text-center text-sm text-gray-400">
     <p>&copy; 2026 Gustavo Barreto</p>
-    <p>Portfolio desenvolvido na disciplina de HTML/CSS</p>
+    <p>Portfólio desenvolvido na disciplina de HTML/CSS</p>
   </footer>
-
-
 
 </body>
 </html>

@@ -22,7 +22,7 @@ portfolio-gustavo-barreto/
     ├── minha_foto_arrumado.jpeg
     ├── foto_com_amigos.jpeg
     ├── python.png  html.png  css.png  portugol.png  php.png  tailwind.png (tecnologias)
-    ├── vscode.png  git.png  github.png                          (ferramentas)
+    ├── vscode.png  git.png  github.png                           (ferramentas)
     └── email.png  instagram.png  tiktok.png   whatsapp.png       (contato)
 ```
 

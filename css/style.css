@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #F5F6F8;;
+  background-color: #14161A;
+}
+
+/* Cabeçalho */
+header {
+  background-color:#1C2126;
+  padding: 20px;
+  border-bottom: 2px solid#2B3038;
+;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+
+header p {
+  margin: 0;
+  color: #3457D5;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2a3eb1;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#apresentacao {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.foto-perfil {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #2a3eb1;
+  border-radius: 50%;
+  object-fit: cover; 
+}
+
+
+.lista-tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lista-tecnologias li {
+  background-color: #2a3eb1;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.cards-ferramentas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+#links a {
+  display: inline-block;
+  background-color: #2a3eb1;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#links a:hover {
+  background-color: #1e2e86;
+}
+
+/* Página sobre.html */
+.foto-sobre {
+  width: 250px;
+  border: 3px solid #2a3eb1;
+  margin-bottom: 15px;
+}
+
+/* Página contato.html */
+#contato p {
+  margin: 10px 0;
+  color:#F5F6F8;
+}
+
+#contato a {
+  color: #3457D5;
+}
+
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1C2126;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}

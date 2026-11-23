@@ -1,6 +1,6 @@
 # Portfólio – Gustavo Barreto
 
-Trabalho de HTML/CSS do 3º bimestre, feito na disciplina de Informática da E.E.E.P Jeová Costa Lima, em Russas.
+Trabalho de HTML/CSS do 4º bimestre, feito na disciplina de Informática da E.E.E.P Jeová Costa Lima, em Russas.
 
 ## Páginas
 
